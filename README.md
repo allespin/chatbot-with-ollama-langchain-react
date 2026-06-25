@@ -1,4 +1,6 @@
 # Chatbot · Ollama + LangChain + React 
+## 📸 Preview - Tela inicial
+<img width="1902" height="907" alt="0" src="https://github.com/user-attachments/assets/31ab917e-3b21-496f-a116-3104c2f6ac9b" />
 
 Aplicação de chatbot full-stack executada de forma local, sem dependência de APIs externas. O back-end foi desenvolvido em Python utilizando FastAPI para disponibilização da API, LangChain para gerenciamento do fluxo conversacional e Ollama para execução de modelos de linguagem localmente.
 
@@ -7,11 +9,6 @@ As respostas são entregues em streaming e o chatbot mantém o histórico das co
 No front-end, a interface foi construída com React, Tailwind CSS e componentes inspirados no shadcn/ui, proporcionando uma experiência moderna, responsiva e intuitiva.
 
 O assistente também possui suporte a múltiplos idiomas, permitindo interações em diferentes línguas.
-
-
-## 📸 Preview
-### Tela inicial
-<img width="1902" height="907" alt="0" src="https://github.com/user-attachments/assets/31ab917e-3b21-496f-a116-3104c2f6ac9b" />
 
 
 ### 1. Exemplo de conversas

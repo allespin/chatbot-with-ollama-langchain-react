@@ -2,7 +2,7 @@
 
 Aplicação de chatbot full-stack executada de forma local, sem dependência de APIs externas. O back-end foi desenvolvido em Python utilizando FastAPI para disponibilização da API, LangChain para gerenciamento do fluxo conversacional e Ollama para execução de modelos de linguagem localmente.
 
-As respostas são entregues em streaming e o chatbot mantém o histórico das conversas, permitindo interações com contexto contínuo.
+As respostas são entregues em streaming e o chatbot mantém o histórico das conversas, permitindo interações em uma conversa contínua.
 
 No front-end, a interface foi construída com React, Tailwind CSS e componentes inspirados no shadcn/ui, proporcionando uma experiência moderna, responsiva e intuitiva.
 

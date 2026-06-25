@@ -1,10 +1,13 @@
 # Chatbot · Ollama + LangChain + React 
 
-Desenvolvimento de um chatbot full-stack que roda totalmente local, sem depender de APIs externas. O back-end foi construído em Python, usando FastAPI para a API, LangChain para estruturar as conversas e Ollama para executar o modelo de linguagem direto na máquina. As respostas chegam em streaming e o chatbot mantém o histórico da conversa para dar respostas com contexto.
+Aplicação de chatbot full-stack executada de forma local, sem dependência de APIs externas. O back-end foi desenvolvido em Python utilizando FastAPI para disponibilização da API, LangChain para gerenciamento do fluxo conversacional e Ollama para execução de modelos de linguagem localmente.
 
-No front-end, a interface foi feita em React com Tailwind CSS e componentes inspirados no shadcn/ui, buscando uma experiência limpa e responsiva.
+As respostas são entregues em streaming e o chatbot mantém o histórico das conversas, permitindo interações com contexto contínuo.
 
-O assistente também foi configurado para responder mensagens em outras línguas.
+No front-end, a interface foi construída com React, Tailwind CSS e componentes inspirados no shadcn/ui, proporcionando uma experiência moderna, responsiva e intuitiva.
+
+O assistente também possui suporte a múltiplos idiomas, permitindo interações em diferentes línguas.
+
 
 ## 📸 Preview
 ### Tela inicial
@@ -106,11 +109,14 @@ Acesse `http://localhost:5173`.
 
 # Chatbot · Ollama + LangChain + React (English)
 
-Development of a full-stack chatbot that runs entirely locally, without relying on paid external APIs. The back-end was built in Python, using FastAPI for the API, LangChain to structure the conversations, and Ollama to run the language model directly on the machine. Responses arrive via streaming, and the chatbot keeps the conversation history to provide context-aware answers.
+A full-stack chatbot application running entirely locally, without relying on external APIs. The backend was developed in Python using FastAPI for API delivery, LangChain for conversational flow management, and Ollama for running language models locally.
 
-On the front-end, the interface was built with React and Tailwind CSS, with components inspired by shadcn/ui, aiming for a clean and responsive experience.
+Responses are delivered through streaming, and the chatbot maintains conversation history, allowing interactions with continuous context.
 
-The assistant was also configured to respond to messages in other languages.
+On the frontend, the interface was built with React, Tailwind CSS, and components inspired by shadcn/ui, providing a modern, responsive, and intuitive user experience.
+
+The assistant also supports multiple languages, allowing interactions in different languages.
+
 ## Structure
 
 ```
